@@ -6,7 +6,6 @@ SignalDesk je aplikacija kojom tim prati kvarove svojih servisa. Nije program ko
 
 Primjer: kupci ne mogu platiti narudžbu. Prijaviš incident za Payments, postaviš ozbiljnost Critical, dodijeliš odgovornu osobu, zapišeš nalaze i pomjeraš status do Resolved.
 
-Za intervju je pošteno reći da si koristio AI kao pomoć. Vrijednost pokazuješ razumijevanjem, samostalnim izmjenama i objašnjenjem kompromisa. Jedan projekt sam po sebi ne znači da imaš seniorsko iskustvo.
 
 ## Kako ga pokrenuti
 

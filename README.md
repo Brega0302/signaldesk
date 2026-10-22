@@ -114,15 +114,16 @@ SQLite keeps the demo portable while supporting real transactions and constraint
 See [architecture decisions](docs/ARCHITECTURE.md) and [the learning guide](docs/UCENJE.md) for limitations, examples, and an interview demo.
 
 
-## Publish to GitHub
+## Repository
 
-This folder is initialized as a local Git repository. Create an empty repository named signaldesk on your GitHub account, then:
+Source: https://github.com/Brega0302/signaldesk
 
 ```sh
-git add .
-git commit -m "Build SignalDesk incident operations application"
-git remote add origin https://github.com/YOUR_USERNAME/signaldesk.git
-git push -u origin main
+git clone https://github.com/Brega0302/signaldesk.git
+cd signaldesk
+npm install
 ```
 
-Replace YOUR_USERNAME with your account name. Set your own Git author identity if Git requests it. The .gitignore excludes local database files, .env, dependencies and build output. GitHub Actions validates tests and build after the first push.
+Follow the local setup steps above to enable the demo seed and start the app.
+The .gitignore excludes local database files, .env, dependencies and build output.
+GitHub Actions runs integration tests and the production build on every push and pull request.
